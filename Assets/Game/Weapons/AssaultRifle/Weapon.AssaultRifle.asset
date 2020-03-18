@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82a465722a63bbd4297a8e3a95093f53, type: 3}
+  m_Name: Weapon.AssaultRifle
+  m_EditorClassIdentifier: 
+  fireRate: 15
+  damage:
+    head: 0
+    body: 0
+    limb: 0
+  shootType: 0
+  isAutomatic: 1
+  animId: 3
+  animations:
+    recoilAnimation: {fileID: 7400000, guid: 6ff010a164f262848b9addb3107330be, type: 2}
+    idleAnimation: {fileID: 7400000, guid: f6d0cb8795fa14642b9ebd230cddbd7f, type: 2}
+  impactEffectPrefab: {fileID: 106912, guid: 24b8ba1adbbf07741b706b10eec4042a, type: 3}
+  impactMarkPrefab: {fileID: 4426221760507793995, guid: 8940b1d111df8f441a2e8fa1777588b3,
+    type: 3}
+  muzzleFlashPrefab: {fileID: 4118130527945813300, guid: d2a799cf34694424b874e72f2e8ca3e5,
+    type: 3}
+  fireClip: {fileID: 8300000, guid: b14afc46d85166040b5884240df0d386, type: 3}
+  equippedWeaponPrefab: {fileID: 1557058825397685719, guid: 4d12ca8b4c8a8924b96d5a2b8346447e,
+    type: 3}
+  projectilePrefab: {fileID: 816187099578541780, guid: 72df5ca5fa5c4c744819b4b52c3a1472,
+    type: 3}
