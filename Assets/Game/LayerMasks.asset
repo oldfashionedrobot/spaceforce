@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   groundLayerMask:
     serializedVersion: 2
-    m_Bits: 131072
+    m_Bits: 256
   shootLayerMask:
     serializedVersion: 2
-    m_Bits: 132608
+    m_Bits: 785
