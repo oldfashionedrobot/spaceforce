@@ -31,13 +31,32 @@ public class WeaponManager : MonoBehaviour {
       return false;
     } else {
       nextShotTime = Time.time + 1 / weapon.fireRate;
-      weapon.Shoot(equippedWeapon.GetMuzzlePoint(), aimTarget.point, aimTarget.normal);
 
-      AudioSource.PlayClipAtPoint(weapon.fireClip, equippedWeapon.transform.position);
+      if (weapon.shootType == WeaponShootType.HitScan) {
+        // effects
+        weapon.Shoot(equippedWeapon.GetMuzzlePoint(), aimTarget.point, aimTarget.normal);
+        AudioSource.PlayClipAtPoint(weapon.fireClip, equippedWeapon.transform.position);
+        ikArmAnimation.Play(recoilAnimName);
 
-      ikArmAnimation.Play(recoilAnimName);
+        // you hitting something
+        if (aimTarget.collider != null) {
+          Hitbox hit = aimTarget.collider.GetComponent<Hitbox>();
+          if (hit) ApplyShootDamage(hit, weapon, aimTarget.point, (aimTarget.point - transform.position).normalized);
+        }
+      } else {
+        // TODO: how to handle flying projectiles?
+      }
       return true;
     }
+  }
+
+  public bool ApplyShootDamage(Hitbox hit, Weapon weapon, Vector3 hitPoint, Vector3 hitDirection) {
+    Health target = hit.GetComponentInParent<Health>();
+    float damage = weapon.GetDamage(hit.type);
+
+    target.TakeDamage(hit, hitPoint, hitDirection, damage);
+
+    return true;
   }
 
   public void PerformAimRaycast(Vector3 target, LayerMask shootCheckLayer) {

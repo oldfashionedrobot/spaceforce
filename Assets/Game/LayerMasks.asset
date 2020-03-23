@@ -17,4 +17,4 @@ MonoBehaviour:
     m_Bits: 256
   shootLayerMask:
     serializedVersion: 2
-    m_Bits: 785
+    m_Bits: 1809

@@ -21,13 +21,10 @@ public enum ControlState {
   Hit,
 }
 
-public class PlayerController : MonoBehaviour {
-  private Animator anim;
-  private Camera mainCam;
-  private CameraManager camManager;
-  private CharacterController controller;
-  private CharacterIKManager ikManager;
-  private WeaponManager weaponManager;
+public class PlayerController : DudeController {
+
+  protected Camera mainCam;
+  protected CameraManager camManager;
 
   private float groundCheckDistance = 0.4f;
   private LayerMask groundCheckLayer;
@@ -54,11 +51,9 @@ public class PlayerController : MonoBehaviour {
     shootCheckLayer = layerMasks.shootLayerMask;
   }
 
-  void Awake() {
-    anim = GetComponent<Animator>();
-    controller = GetComponent<CharacterController>();
-    ikManager = GetComponent<CharacterIKManager>();
-    weaponManager = GetComponent<WeaponManager>();
+  new void Awake() {
+    base.Awake();
+
     mainCam = Camera.main;
     Cursor.lockState = CursorLockMode.Locked;
 

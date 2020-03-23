@@ -3,14 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class EnemyController : MonoBehaviour {
-  private Animator anim;
-  private CharacterIKManager ikManager;
+public class EnemyController : DudeController {
+
   private NavMeshAgent navAgent;
 
-  void Start() {
-    anim = GetComponent<Animator>();
-    ikManager = GetComponent<CharacterIKManager>();
+  new void Awake() {
+    base.Awake();
     navAgent = GetComponent<NavMeshAgent>();
   }
 

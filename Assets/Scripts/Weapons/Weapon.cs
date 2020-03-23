@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,7 +11,7 @@ public enum WeaponShootType {
 [System.Serializable]
 public struct WeaponDamage {
   public float head;
-  public float body;
+  public float torso;
   public float limb;
 }
 
@@ -78,4 +79,18 @@ public class Weapon : ScriptableObject {
       proj.GetComponent<Projectile>().ShootMiss(aimPoint - muzzleTransform.position);
     }
   }
+
+  public float GetDamage(HitboxType hitboxType) {
+    switch (hitboxType) {
+      case HitboxType.Head:
+        return damage.head;
+      case HitboxType.Limb:
+        return damage.limb;
+      case HitboxType.Torso:
+        return damage.torso;
+      default:
+        return 10;
+    }
+  }
+
 }
