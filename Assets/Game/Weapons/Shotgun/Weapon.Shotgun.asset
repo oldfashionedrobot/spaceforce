@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fireRate: 2
   damage:
-    head: 0
-    body: 0
-    limb: 0
+    head: 10
+    torso: 10
+    limb: 10
   shootType: 0
   isAutomatic: 0
   animId: 2

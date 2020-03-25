@@ -1,24 +1,27 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using SpaceForce.Combat;
 using UnityEngine;
 
-public class HitboxManager : MonoBehaviour {
+namespace SpaceForce.Character {
+  public class HitboxManager : MonoBehaviour {
 
-  private Hitbox[] bodyParts;
+    private Hitbox[] bodyParts;
 
-  void Start() {
-    bodyParts = GetComponentsInChildren<Hitbox>();
+    void Start() {
+      bodyParts = GetComponentsInChildren<Hitbox>();
 
-    ToggleRagdoll(false);
-  }
+      ToggleRagdoll(false);
+    }
 
-  public void TurnOnRagdoll() {
-    ToggleRagdoll(true);
-  }
+    public void TurnOnRagdoll() {
+      ToggleRagdoll(true);
+    }
 
-  private void ToggleRagdoll(bool onOff) {
-    foreach (Hitbox part in bodyParts) {
-      part.GetComponent<Rigidbody>().isKinematic = !onOff;
+    private void ToggleRagdoll(bool onOff) {
+      foreach (Hitbox part in bodyParts) {
+        part.GetComponent<Rigidbody>().isKinematic = !onOff;
+      }
     }
   }
 }

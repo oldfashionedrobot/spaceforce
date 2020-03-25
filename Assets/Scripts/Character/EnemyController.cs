@@ -1,25 +1,45 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using SpaceForce.Combat;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class EnemyController : DudeController {
+namespace SpaceForce.Character {
+  public class EnemyController : DudeController {
 
-  private NavMeshAgent navAgent;
+    private NavMeshAgent navAgent;
 
-  new void Awake() {
-    base.Awake();
-    navAgent = GetComponent<NavMeshAgent>();
-  }
+    new void Awake() {
+      base.Awake();
+      navAgent = GetComponent<NavMeshAgent>();
+    }
 
-  void Update() {
-    Transform player = GameObject.FindGameObjectWithTag("Player").transform;
-    Vector3 lookPos = player.position;
-    lookPos.y += 1.5f;
-    ikManager.SetLookPosition(lookPos);
+    void Start() {
+      EquipWeapon(1);
 
-    // navAgent.SetDestination(player.position);
+      TriggerAim();
+    }
 
-    anim.SetFloat("verticalSpeed", navAgent.velocity.magnitude / navAgent.speed);
+    void Update() {
+      Transform player = GameObject.FindGameObjectWithTag("Player").transform;
+      Vector3 lookPos = player.position;
+      lookPos.y += 1.5f;
+      ikManager.SetLookPosition(lookPos);
+
+      // navAgent.SetDestination(player.position);
+
+      anim.SetFloat("verticalSpeed", navAgent.velocity.magnitude / navAgent.speed);
+
+      // weaponManager.PerformAimRaycast(lookPos, GameManager.layers.shootLayerMask);
+      // if (Random.Range(0f, 1f) > 0.7) {
+      //   weaponManager.Shoot();
+      // }
+    }
+
+    new void Die(Hitbox hit, Vector3 hitPoint, Vector3 hitDirection) {
+      navAgent.enabled = false;
+
+      base.Die(hit, hitPoint, hitDirection);
+    }
   }
 }
