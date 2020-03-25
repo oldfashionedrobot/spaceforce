@@ -15,6 +15,7 @@ namespace SpaceForce.Character {
     protected bool isEquipped = false;
     protected bool isAiming = false;
     protected bool isDead = false;
+    protected bool weaponControlDisabled = false;
 
     protected void Awake() {
       anim = GetComponent<Animator>();
@@ -59,5 +60,29 @@ namespace SpaceForce.Character {
       ikManager.ToggleAim(false);
       isAiming = false;
     }
+
+    protected void TriggerReload() {
+      EndAim();
+      weaponManager.Reload();
+      anim.SetTrigger("reload");
+      weaponControlDisabled = true;
+    }
+
+    #region AnimationEvents
+
+    void ReloadEvent(string msg) {
+      if (msg == "start") {
+        // redundant
+        weaponControlDisabled = true;
+        return;
+      }
+
+      if (msg == "end") {
+        anim.ResetTrigger("reload");
+        weaponControlDisabled = false;
+        return;
+      }
+    }
+    #endregion AnimationEvents
   }
 }

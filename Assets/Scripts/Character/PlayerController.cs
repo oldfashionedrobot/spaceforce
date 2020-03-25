@@ -41,7 +41,6 @@ namespace SpaceForce.Character {
 
     private bool dodgeMovement = false;
     private bool isGrounded = true;
-    private bool weaponControlDisabled = false;
     private float lastShotTime = 0f;
 
     #region Init
@@ -167,15 +166,6 @@ namespace SpaceForce.Character {
     private void HandleWeapons() {
       if (weaponControlDisabled) return;
 
-      if (weaponManager.IsAutomaticWeapon() ? Input.GetMouseButton(0) : Input.GetMouseButtonDown(0)) {
-        if (isAiming) {
-          Shoot();
-        } else {
-          StartCoroutine(TurnAndShoot());
-          return;
-        }
-      }
-
       if (Input.GetMouseButton(1)) {
         TriggerAim();
         TriggerZoom();
@@ -188,8 +178,17 @@ namespace SpaceForce.Character {
         EndAim();
       }
 
-      if (Input.GetKeyDown(InputKeys.ReloadWeapon)) {
+      if (Input.GetKeyDown(InputKeys.ReloadWeapon) && weaponManager.CanReload()) {
         TriggerReload();
+      }
+
+      if (weaponManager.IsAutomaticWeapon() ? Input.GetMouseButton(0) : Input.GetMouseButtonDown(0)) {
+        if (isAiming) {
+          Shoot();
+        } else {
+          StartCoroutine(TurnAndShoot());
+          return;
+        }
       }
 
       if (Input.GetKeyDown(InputKeys.UnequipWeapon) && weaponManager.UnequipWeapon()) {
@@ -235,13 +234,6 @@ namespace SpaceForce.Character {
       camManager.ToggleZoom(false);
     }
 
-    private void TriggerReload() {
-      EndAim();
-      EndZoom();
-      anim.SetTrigger("reload");
-      weaponControlDisabled = true;
-    }
-
     private IEnumerator TurnAndShoot() {
       weaponControlDisabled = true;
       // Want to trigger the aim anim here, but not set the bool
@@ -253,9 +245,12 @@ namespace SpaceForce.Character {
     }
 
     private void Shoot() {
-      if (weaponManager.Shoot()) {
+      int shotResult = weaponManager.Shoot();
+      if (shotResult == 1) {
         anim.SetTrigger("shoot");
         lastShotTime = Time.time;
+      } else if (shotResult == -1) {
+        TriggerReload();
       }
     }
 
@@ -275,11 +270,11 @@ namespace SpaceForce.Character {
     private void HandleIKLooking() {
       Ray ray = mainCam.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2));
       RaycastHit hit;
-      if (Physics.Raycast(ray, out hit, 1000f, GameManager.layers.shootLayerMask)) {
+      if (Physics.Raycast(ray, out hit, 500f, GameManager.layers.shootLayerMask)) {
         ikManager.SetLookPosition(hit.point);
         if (isEquipped) weaponManager.PerformAimRaycast(hit.point, GameManager.layers.shootLayerMask);
       } else {
-        Vector3 lookPos = ray.GetPoint(1000f);
+        Vector3 lookPos = ray.GetPoint(500f);
         ikManager.SetLookPosition(lookPos);
         if (isEquipped) weaponManager.PerformAimRaycast(lookPos, GameManager.layers.shootLayerMask);
       }
@@ -350,26 +345,17 @@ namespace SpaceForce.Character {
         return;
       }
     }
-
-    void ReloadEvent(string msg) {
-      if (msg == "start") {
-        // redundant
-        weaponControlDisabled = true;
-        return;
-      }
-
-      if (msg == "end") {
-        anim.ResetTrigger("reload");
-        weaponControlDisabled = false;
-        return;
-      }
-    }
     #endregion AnimationEvents
 
     #region DudeControllerOverrides
     new void Die(Hitbox hit, Vector3 hitPoint, Vector3 hitDirection) {
       // TODO do something
       base.Die(hit, hitPoint, hitDirection);
+    }
+
+    new void TriggerReload() {
+      EndZoom();
+      base.TriggerReload();
     }
 
     #endregion DudeControllerOverrides

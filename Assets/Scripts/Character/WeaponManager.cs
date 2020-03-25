@@ -22,22 +22,24 @@ namespace SpaceForce.Character {
     private RaycastHit aimTarget;
 
     private EquippedWeapon equippedWeapon = null;
+    private AudioSource weaponAudioSource = null;
     private Weapon weapon = null;
+    private int ammo;
 
     private float nextShotTime = 0f;
     private readonly string recoilAnimName = "recoilAnim";
     private readonly string idleAnimName = "idleAnim";
 
-    public bool Shoot() {
+    public int Shoot() {
       if (Time.time < nextShotTime) {
-        return false;
-      } else {
+        return 0;
+      } else if (ammo > 0) {
         nextShotTime = Time.time + 1 / weapon.fireRate;
 
         if (weapon.shootType == WeaponShootType.HitScan) {
           // effects
           weapon.Shoot(equippedWeapon.GetMuzzlePoint(), aimTarget.point, aimTarget.normal);
-          AudioSource.PlayClipAtPoint(weapon.fireClip, equippedWeapon.transform.position);
+          AudioSource.PlayClipAtPoint(weapon.audio.fireClip, equippedWeapon.transform.position);
           ikArmAnimation.Play(recoilAnimName);
 
           // you hitting something
@@ -48,17 +50,25 @@ namespace SpaceForce.Character {
         } else {
           // TODO: how to handle flying projectiles?
         }
-        return true;
+
+        ammo -= 1;
+
+        return 1;
+      } else {
+        return -1;
       }
     }
 
-    public bool ApplyShootDamage(Hitbox hit, Weapon weapon, Vector3 hitPoint, Vector3 hitDirection) {
+    public void Reload() {
+      ammo = weapon.clipSize;
+      weaponAudioSource.PlayOneShot(weapon.audio.reloadClip);
+    }
+
+    public void ApplyShootDamage(Hitbox hit, Weapon weapon, Vector3 hitPoint, Vector3 hitDirection) {
       Health target = hit.GetComponentInParent<Health>();
       float damage = weapon.GetDamage(hit.type);
 
       target.TakeDamage(hit, hitPoint, hitDirection, damage);
-
-      return true;
     }
 
     public void PerformAimRaycast(Vector3 target, LayerMask shootCheckLayer) {
@@ -72,7 +82,7 @@ namespace SpaceForce.Character {
         }
       } else {
         aimTarget = new RaycastHit();
-        aimTarget.point = target;
+        aimTarget.point = muzzlePoint + rayDir.normalized * 500f;
         // don't care about normal just want a direction to shoot at
       }
     }
@@ -82,6 +92,10 @@ namespace SpaceForce.Character {
 
       weapon = arsenal.weapons[weaponNum - 1];
       equippedWeapon = weapon.SetUpWeapon(rHand);
+      weaponAudioSource = equippedWeapon.GetComponent<AudioSource>();
+
+      // NOTE: arsenal can store more info about weapon state?
+      ammo = weapon.clipSize;
 
       leftHandIKTarget = equippedWeapon.GetLeftHandIKTarget();
       leftElbowIKTarget = equippedWeapon.GetLeftElbowIKTarget();
@@ -108,6 +122,18 @@ namespace SpaceForce.Character {
 
     public bool IsAutomaticWeapon() {
       return weapon != null && weapon.isAutomatic;
+    }
+
+    public int GetCurrentAmmo() {
+      return ammo;
+    }
+
+    public int GetClipSize() {
+      return weapon.clipSize;
+    }
+
+    public bool CanReload() {
+      return ammo < weapon.clipSize;
     }
   }
 }

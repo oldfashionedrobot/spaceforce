@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace SpaceForce.Combat {
+  [RequireComponent(typeof(AudioSource))]
   public class EquippedWeapon : MonoBehaviour {
     [SerializeField]
     private Transform leftHandIKTarget;

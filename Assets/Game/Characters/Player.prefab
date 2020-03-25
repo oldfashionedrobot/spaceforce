@@ -265,7 +265,7 @@ PrefabInstance:
     - target: {fileID: 9166094570354178996, guid: 2646c9bee14a2674eb96252a911ebca6,
         type: 3}
       propertyPath: arsenal.weapons.Array.size
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9166094570354178996, guid: 2646c9bee14a2674eb96252a911ebca6,
         type: 3}

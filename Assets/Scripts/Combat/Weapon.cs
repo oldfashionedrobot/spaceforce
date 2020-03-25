@@ -26,11 +26,18 @@ namespace SpaceForce.Combat {
     // public AnimationClip meleeAnimation;
   }
 
+  [System.Serializable]
+  public struct WeaponAudio {
+    public AudioClip fireClip;
+    public AudioClip reloadClip;
+  }
+
   [CreateAssetMenu(fileName = "Weapon", menuName = "SpaceForce/New Weapon", order = 0)]
   public class Weapon : ScriptableObject {
     // weapon stats
     public float fireRate;
     public WeaponDamage damage;
+    public int clipSize;
 
     // weapon mechanics
     public WeaponShootType shootType;
@@ -39,10 +46,10 @@ namespace SpaceForce.Combat {
     // effects
     public int animId;
     public WeaponAnimations animations;
+    public WeaponAudio audio;
     public GameObject impactEffectPrefab;
     public GameObject impactMarkPrefab;
     public GameObject muzzleFlashPrefab;
-    public AudioClip fireClip;
 
     // objects to instantiate
     public GameObject equippedWeaponPrefab;
@@ -70,8 +77,8 @@ namespace SpaceForce.Combat {
         GameObject hitEffect = Instantiate(impactEffectPrefab, aimPoint, Quaternion.LookRotation(aimNormal));
         Destroy(hitEffect, 2f);
 
-        GameObject hitMark = Instantiate(impactMarkPrefab, aimPoint + (aimNormal * 0.01f), Quaternion.LookRotation(-aimNormal));
-        Destroy(hitMark, 5f);
+        // GameObject hitMark = Instantiate(impactMarkPrefab, aimPoint + (aimNormal * 0.01f), Quaternion.LookRotation(-aimNormal));
+        // Destroy(hitMark, 5f);
 
         GameObject proj = Instantiate(projectilePrefab, muzzleTransform.position, Quaternion.LookRotation(aimPoint - muzzleTransform.position));
         proj.GetComponent<Projectile>().ShootTarget(aimPoint);
