@@ -63,8 +63,9 @@ namespace SpaceForce.Combat {
       weaponInstance = Instantiate(equippedWeaponPrefab, parentHand);
 
       EquippedWeapon eqpWep = weaponInstance.GetComponent<EquippedWeapon>();
+      Transform muzzlePoint = eqpWep.GetMuzzlePoint();
 
-      muzzleFlashParticle = Instantiate(muzzleFlashPrefab, eqpWep.GetMuzzlePoint()).GetComponent<ParticleSystem>();
+      muzzleFlashParticle = Instantiate(muzzleFlashPrefab, muzzlePoint).GetComponent<ParticleSystem>();
 
       return eqpWep;
     }

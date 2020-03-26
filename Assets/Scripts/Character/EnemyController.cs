@@ -30,16 +30,16 @@ namespace SpaceForce.Character {
 
       anim.SetFloat("verticalSpeed", navAgent.velocity.magnitude / navAgent.speed);
 
-      weaponManager.PerformAimRaycast(lookPos, GameManager.layers.shootLayerMask);
-      if (Random.Range(0f, 1f) > 0.9 && !weaponControlDisabled) {
-        TriggerAim();
+      // weaponManager.PerformAimRaycast(lookPos, GameManager.layers.shootLayerMask);
+      // if (Random.Range(0f, 1f) > 0.9 && !weaponControlDisabled) {
+      //   TriggerAim();
 
-        int shotResult = weaponManager.Shoot();
+      //   int shotResult = weaponManager.Shoot();
 
-        if (shotResult == -1) {
-          TriggerReload();
-        }
-      }
+      //   if (shotResult == -1) {
+      //     TriggerReload();
+      //   }
+      // }
     }
 
     new void Die(Hitbox hit, Vector3 hitPoint, Vector3 hitDirection) {

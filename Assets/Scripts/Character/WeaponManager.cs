@@ -129,7 +129,9 @@ namespace SpaceForce.Character {
     }
 
     public int GetClipSize() {
-      return weapon.clipSize;
+      if (weapon != null)
+        return weapon.clipSize;
+      else return 0;
     }
 
     public bool CanReload() {
