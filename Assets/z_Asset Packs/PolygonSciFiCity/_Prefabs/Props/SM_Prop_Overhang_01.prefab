@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4247531794298980}
   - component: {fileID: 33626406058006048}
   - component: {fileID: 23558376987685744}
+  - component: {fileID: 64945335385690916}
   m_Layer: 0
   m_Name: SM_Prop_Overhang_01
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1083068638560774}
   m_Mesh: {fileID: 4300000, guid: a23d657620bef9b4cace866fa602b581, type: 3}
+--- !u!64 &64945335385690916
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1083068638560774}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43879418949885872, guid: 78bb647f446f98246a6fc72f4677e107, type: 2}

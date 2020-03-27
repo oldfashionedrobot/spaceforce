@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4154841941920556}
   - component: {fileID: 33335905663773638}
   - component: {fileID: 23371192238909590}
+  - component: {fileID: 64115102068407854}
   m_Layer: 0
   m_Name: SM_Building_Shack_01
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1444634141056392}
   m_Mesh: {fileID: 4300000, guid: 0f5f37852e146dc4188a2b00159d635b, type: 3}
+--- !u!64 &64115102068407854
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1444634141056392}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43155955663671922, guid: 12d3f9b7d54629e4aaeffa5416018978, type: 2}

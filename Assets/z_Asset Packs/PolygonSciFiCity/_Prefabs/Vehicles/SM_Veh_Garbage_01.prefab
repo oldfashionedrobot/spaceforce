@@ -72,6 +72,7 @@ GameObject:
   - component: {fileID: 4362264027587702}
   - component: {fileID: 33512148020435380}
   - component: {fileID: 23426050647316102}
+  - component: {fileID: 64216644797307908}
   m_Layer: 0
   m_Name: SM_Veh_Garbage_01
   m_TagString: Untagged
@@ -640,3 +641,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1443734789490234}
   m_Mesh: {fileID: 4300008, guid: 48432c96472792a4e9022a07bc2c32ec, type: 3}
+--- !u!64 &64216644797307908
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1403180029507646}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43262471403038334, guid: c21451efd3d48db4e80ac8c9c95ff009, type: 2}

@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4818584046361294}
   - component: {fileID: 33247877032064050}
   - component: {fileID: 23007748078511620}
+  - component: {fileID: 64954548438473518}
   m_Layer: 0
   m_Name: SM_Prop_FoodTray_04
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1145043073829884}
   m_Mesh: {fileID: 4300000, guid: 5bba11796b4e26542b6e61d1ebad705e, type: 3}
+--- !u!64 &64954548438473518
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1145043073829884}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43968409378789960, guid: d54e27369c21e57429e7e4bd77a275be, type: 2}

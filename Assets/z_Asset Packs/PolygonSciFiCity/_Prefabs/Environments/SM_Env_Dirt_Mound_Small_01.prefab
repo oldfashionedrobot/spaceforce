@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33476651037934248}
   - component: {fileID: 23542912660641486}
   - component: {fileID: 95518734239338916}
+  - component: {fileID: 64787206289876670}
   m_Layer: 0
   m_Name: SM_Env_Dirt_Mound_Small_01
   m_TagString: Untagged
@@ -80,6 +81,20 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1052679072039804}
+  m_Mesh: {fileID: 4300000, guid: 67fa00981eb4cbb478f3907a00ef4dac, type: 3}
+--- !u!64 &64787206289876670
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1052679072039804}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 67fa00981eb4cbb478f3907a00ef4dac, type: 3}
 --- !u!95 &95518734239338916
 Animator:

@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4032471086058362}
   - component: {fileID: 33996655310812468}
   - component: {fileID: 23328556672487796}
+  - component: {fileID: 64336117467190246}
   m_Layer: 0
   m_Name: SM_Prop_Medical_Chair_01
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1242678806375734}
   m_Mesh: {fileID: 4300000, guid: 16463a341ea7f9247977536dfe5ebfea, type: 3}
+--- !u!64 &64336117467190246
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1242678806375734}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43945913489364936, guid: 379881799f13273439b0781392e94bfb, type: 2}

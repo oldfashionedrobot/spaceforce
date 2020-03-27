@@ -140,6 +140,7 @@ GameObject:
   - component: {fileID: 4393993514611668}
   - component: {fileID: 33088062009517052}
   - component: {fileID: 23250802468489544}
+  - component: {fileID: 64370655530030472}
   m_Layer: 0
   m_Name: SM_Veh_Classic_01
   m_TagString: Untagged
@@ -710,3 +711,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1656905652151112}
   m_Mesh: {fileID: 4300018, guid: 5415c097506e8da42886699d81a1bd71, type: 3}
+--- !u!64 &64370655530030472
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1635034344049306}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43493368621543708, guid: 00ba2f0aefb04b441aeeaa471878ebf6, type: 2}

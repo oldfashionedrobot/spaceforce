@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4508807577242800}
   - component: {fileID: 33946050355574350}
   - component: {fileID: 23542593586349736}
+  - component: {fileID: 64484886160800074}
   m_Layer: 0
   m_Name: SM_Bld_FoodHole_01
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1346552099340838}
   m_Mesh: {fileID: 4300000, guid: 8cdb1009c1e155341a7168c24195ff6a, type: 3}
+--- !u!64 &64484886160800074
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1346552099340838}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43177719389887588, guid: 5c37499afca8d3344859f3cbfba7ca26, type: 2}

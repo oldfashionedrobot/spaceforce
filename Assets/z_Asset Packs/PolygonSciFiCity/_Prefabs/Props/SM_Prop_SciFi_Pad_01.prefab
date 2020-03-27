@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4420995431412962}
   - component: {fileID: 33400794954313542}
   - component: {fileID: 23398722691569404}
+  - component: {fileID: 64852272651868776}
   m_Layer: 0
   m_Name: SM_Prop_SciFi_Pad_01
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1480121031008360}
   m_Mesh: {fileID: 4300000, guid: 1c906e2c6c62fc3438cfea2a6e9b73b5, type: 3}
+--- !u!64 &64852272651868776
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1480121031008360}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43982122737784640, guid: 1ab845f47c9d1794e8237ccb5312646f, type: 2}

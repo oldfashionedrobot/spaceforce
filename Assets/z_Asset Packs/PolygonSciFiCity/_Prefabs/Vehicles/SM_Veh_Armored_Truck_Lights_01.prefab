@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4923504521688238}
   - component: {fileID: 33967892238785232}
   - component: {fileID: 23699346082138962}
+  - component: {fileID: 64736479889858400}
   m_Layer: 0
   m_Name: SM_Veh_Armored_Truck_Lights_01
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1589346221436650}
   m_Mesh: {fileID: 4300000, guid: 2668c542c7566954f8d5a88220462a84, type: 3}
+--- !u!64 &64736479889858400
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1589346221436650}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43115655150202228, guid: 2ce1150338abd1240b0b3853ca1ef57f, type: 2}

@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4598860452179628}
   - component: {fileID: 33875802290673708}
   - component: {fileID: 23080941181689904}
+  - component: {fileID: 65875721061038780}
   m_Layer: 0
   m_Name: SM_Env_Graffiti_Wall_04
   m_TagString: Untagged
@@ -80,3 +81,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1560030287085454}
   m_Mesh: {fileID: 4300000, guid: f93cabe3e5e6ff746b72334cd4d9e38f, type: 3}
+--- !u!65 &65875721061038780
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1560030287085454}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.9551182, y: 1.2942653, z: 0.09293889}
+  m_Center: {x: -0.00000011920929, y: -0.00000008940697, z: 0.04647008}

@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4650267504068298}
   - component: {fileID: 33902386214594338}
   - component: {fileID: 23802155674827400}
+  - component: {fileID: 65861303978258680}
   m_Layer: 0
   m_Name: SM_Env_Sidewalk_Straight_Half_01_SF
   m_TagString: Untagged
@@ -80,3 +81,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1954845386377056}
   m_Mesh: {fileID: 4300000, guid: 392f8857382c7004b9134d2fcdbb262e, type: 3}
+--- !u!65 &65861303978258680
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1954845386377056}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 0.03913545, z: 2.507711}
+  m_Center: {x: -2.5, y: -0.019567724, z: -3.7461445}

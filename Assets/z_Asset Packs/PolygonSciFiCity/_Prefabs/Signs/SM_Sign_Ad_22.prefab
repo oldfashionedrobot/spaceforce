@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4445178656696052}
   - component: {fileID: 33930259338757952}
   - component: {fileID: 23924381938152148}
+  - component: {fileID: 65837196534280454}
   m_Layer: 0
   m_Name: SM_Sign_Ad_22
   m_TagString: Untagged
@@ -80,3 +81,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1861103689938312}
   m_Mesh: {fileID: 4300000, guid: c5df1397ed577164eb7299215372c476, type: 3}
+--- !u!65 &65837196534280454
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1861103689938312}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.9580097, y: 0.61825633, z: 0.026138306}
+  m_Center: {x: 0.000000014901161, y: 0.00000013411045, z: 0}

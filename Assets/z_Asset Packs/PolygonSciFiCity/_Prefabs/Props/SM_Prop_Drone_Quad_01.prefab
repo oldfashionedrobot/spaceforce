@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4622954476587276}
   - component: {fileID: 33793968561263978}
   - component: {fileID: 23888560446418572}
+  - component: {fileID: 64542895925207208}
   m_Layer: 0
   m_Name: SM_Prop_Drone_Quad_01
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1241025764701688}
   m_Mesh: {fileID: 4300000, guid: 2e0bd00dd64d7544bb15dcd3ab78e03e, type: 3}
+--- !u!64 &64542895925207208
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1241025764701688}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43336788338928054, guid: 3ae7415ffc5a86f4e81a1fd8f6e89595, type: 2}

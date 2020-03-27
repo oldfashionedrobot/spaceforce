@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4403740888788108}
   - component: {fileID: 33784210983516024}
   - component: {fileID: 23719156309303494}
+  - component: {fileID: 64916374832663892}
   m_Layer: 0
   m_Name: SM_Prop_ChargingStation_01
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1294649830589994}
   m_Mesh: {fileID: 4300000, guid: 1b056e37c2abe5549a85f739430c631c, type: 3}
+--- !u!64 &64916374832663892
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1294649830589994}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43898555668005766, guid: 5206437bfc1e0c4428bdd69cee4b1fa6, type: 2}

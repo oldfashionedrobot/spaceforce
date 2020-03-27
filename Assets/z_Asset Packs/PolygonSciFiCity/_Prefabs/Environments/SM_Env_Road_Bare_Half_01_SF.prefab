@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4120201841308852}
   - component: {fileID: 33946107336785284}
   - component: {fileID: 23425931678982386}
+  - component: {fileID: 65152380957033870}
   m_Layer: 0
   m_Name: SM_Env_Road_Bare_Half_01_SF
   m_TagString: Untagged
@@ -80,3 +81,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1761206186323928}
   m_Mesh: {fileID: 4300000, guid: 747bbe9eb33611b46ac639fd4b5efb75, type: 3}
+--- !u!65 &65152380957033870
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1761206186323928}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 0.03913545, z: 2.53096}
+  m_Center: {x: -2.5, y: -0.019567724, z: -1.26548}

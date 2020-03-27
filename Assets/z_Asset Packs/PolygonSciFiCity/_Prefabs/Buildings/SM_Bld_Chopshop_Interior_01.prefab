@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4931039532825950}
   - component: {fileID: 33104018081803690}
   - component: {fileID: 23510762006057282}
+  - component: {fileID: 64189089122320026}
   m_Layer: 0
   m_Name: SM_Bld_Chopshop_Interior_01
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1194678205156758}
   m_Mesh: {fileID: 4300000, guid: 8fe65d9e495a80b4d88592b87e05d349, type: 3}
+--- !u!64 &64189089122320026
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1194678205156758}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 32101a162d7ed5c4fa28b21907804684, type: 3}

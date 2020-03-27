@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4197542902086458}
   - component: {fileID: 33056823336029550}
   - component: {fileID: 23728930285024344}
+  - component: {fileID: 64947545109304436}
   m_Layer: 0
   m_Name: SM_Env_Ground_Flat_01
   m_TagString: Untagged
@@ -79,4 +80,18 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1919724470863880}
+  m_Mesh: {fileID: 4300000, guid: 88fd9561fa852054a916d1df12cfb320, type: 3}
+--- !u!64 &64947545109304436
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1919724470863880}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 88fd9561fa852054a916d1df12cfb320, type: 3}

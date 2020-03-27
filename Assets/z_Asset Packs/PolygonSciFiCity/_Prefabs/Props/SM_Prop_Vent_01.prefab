@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4973878127546786}
   - component: {fileID: 33360660654694246}
   - component: {fileID: 23434996946228964}
+  - component: {fileID: 64820742048343342}
   m_Layer: 0
   m_Name: SM_Prop_Vent_01
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1735777065023250}
   m_Mesh: {fileID: 4300000, guid: 617076c6f949df54c8dbe55a3906fa7f, type: 3}
+--- !u!64 &64820742048343342
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735777065023250}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43729263059540492, guid: 58d99e78cccfb0541acb20812cda67e8, type: 2}

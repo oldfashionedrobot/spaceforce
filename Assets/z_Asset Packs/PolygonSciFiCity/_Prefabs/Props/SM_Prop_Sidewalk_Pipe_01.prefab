@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4269761014515126}
   - component: {fileID: 33197244293597876}
   - component: {fileID: 23189515145806700}
+  - component: {fileID: 64382839391402236}
   m_Layer: 0
   m_Name: SM_Prop_Sidewalk_Pipe_01
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1890876365567904}
   m_Mesh: {fileID: 4300000, guid: 6f22d9a0fece4734aada192cebd8ed04, type: 3}
+--- !u!64 &64382839391402236
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1890876365567904}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43668315192801350, guid: 367fc11bdf6e9b2489b069b89c72068f, type: 2}

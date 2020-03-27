@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4774648411020580}
   - component: {fileID: 33288335239803752}
   - component: {fileID: 23252262648735808}
+  - component: {fileID: 64787246582601724}
   m_Layer: 0
   m_Name: SM_Prop_Door_05
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1614123765330388}
   m_Mesh: {fileID: 4300000, guid: 8f3cdeda7cd9f934aa16805978af5c6f, type: 3}
+--- !u!64 &64787246582601724
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1614123765330388}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43658738052343628, guid: 2a61d1116795e6a4aa874d4da09c51bd, type: 2}

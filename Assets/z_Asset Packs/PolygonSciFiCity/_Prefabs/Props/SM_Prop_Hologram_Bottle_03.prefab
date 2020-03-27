@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33796403015616510}
   - component: {fileID: 23507676977505940}
   - component: {fileID: 95589093377494538}
+  - component: {fileID: 64121340318178530}
   m_Layer: 0
   m_Name: SM_Prop_Hologram_Bottle_03
   m_TagString: Untagged
@@ -151,6 +152,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1471665889910316}
   m_Mesh: {fileID: 4300000, guid: ad6a0c0b0b6cda747b9b203815586cb2, type: 3}
+--- !u!64 &64121340318178530
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1471665889910316}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43473549446030032, guid: 983023d7f8c53304f803958f38467c4a, type: 2}
 --- !u!95 &95589093377494538
 Animator:
   serializedVersion: 3

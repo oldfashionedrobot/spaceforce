@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4327818508029818}
   - component: {fileID: 33102966018692802}
   - component: {fileID: 23859234208615264}
+  - component: {fileID: 65372261591077688}
   m_Layer: 0
   m_Name: SM_Sign_Billboard_Large_02
   m_TagString: Untagged
@@ -80,3 +81,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1556487081134128}
   m_Mesh: {fileID: 4300000, guid: 23aa1d705129f9f479c5fdcfc57b9bcd, type: 3}
+--- !u!65 &65372261591077688
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1556487081134128}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.28092, y: 4.8547683, z: 0.07042414}
+  m_Center: {x: 0.000000059604645, y: 0.00000023841858, z: 0.0000000055879354}

@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4475891200291490}
   - component: {fileID: 33403131652564060}
   - component: {fileID: 23851557954150802}
+  - component: {fileID: 64825970657197838}
   m_Layer: 0
   m_Name: SM_Prop_Cable_Crossing_Machine_01
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1528863732336900}
   m_Mesh: {fileID: 4300000, guid: ef84634d31db4b64abd8b8995a78aec7, type: 3}
+--- !u!64 &64825970657197838
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1528863732336900}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43433137826298890, guid: 3f09493b2ea996042b8adbd3a8f4b2d1, type: 2}

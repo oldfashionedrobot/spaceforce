@@ -55,6 +55,7 @@ GameObject:
   - component: {fileID: 4657636852582608}
   - component: {fileID: 33094491628704728}
   - component: {fileID: 23901495839984312}
+  - component: {fileID: 64008834751710936}
   m_Layer: 0
   m_Name: SM_Veh_Future_01
   m_TagString: Untagged
@@ -220,3 +221,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1213170447677410}
   m_Mesh: {fileID: 4300004, guid: 71435b3bf93f45e4eb1b3424e13316c4, type: 3}
+--- !u!64 &64008834751710936
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1938635135940110}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43461950251087278, guid: cff91aff617557143b0ff0626714a0c2, type: 2}

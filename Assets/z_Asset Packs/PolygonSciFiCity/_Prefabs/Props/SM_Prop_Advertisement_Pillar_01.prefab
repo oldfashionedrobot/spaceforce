@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4686871227457620}
   - component: {fileID: 33053279949580010}
   - component: {fileID: 23001256040256798}
+  - component: {fileID: 64472554668277586}
   m_Layer: 0
   m_Name: SM_Prop_Advertisement_Pillar_01
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1661159153272266}
   m_Mesh: {fileID: 4300000, guid: 84bc413d7ba666441a5d6e2ea75b438a, type: 3}
+--- !u!64 &64472554668277586
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1661159153272266}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43394169775380374, guid: 867988836c99237449ca02908dde15c8, type: 2}

@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4186693076392516}
   - component: {fileID: 33871337775692802}
   - component: {fileID: 23380173882533258}
+  - component: {fileID: 64331855639032948}
   m_Layer: 0
   m_Name: SM_Prop_Barrier_Pole_01
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1312749605225882}
   m_Mesh: {fileID: 4300000, guid: 3bc88e9d9b707674e992f2f0eb75e9ce, type: 3}
+--- !u!64 &64331855639032948
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1312749605225882}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43007690329253286, guid: 6ef0ddc347560a44e9fe057843950bef, type: 2}

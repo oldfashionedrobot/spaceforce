@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4148407222858834}
   - component: {fileID: 33407441480037572}
   - component: {fileID: 23472740541774980}
+  - component: {fileID: 65264837906370118}
   m_Layer: 0
   m_Name: SM_Env_Road_Median_02_SF
   m_TagString: Untagged
@@ -80,3 +81,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1290606321704794}
   m_Mesh: {fileID: 4300000, guid: f2c2f941461cb19418e4a4a902d92f9f, type: 3}
+--- !u!65 &65264837906370118
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1290606321704794}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 0.03913545, z: 5}
+  m_Center: {x: -2.5, y: -0.019567724, z: -2.5}

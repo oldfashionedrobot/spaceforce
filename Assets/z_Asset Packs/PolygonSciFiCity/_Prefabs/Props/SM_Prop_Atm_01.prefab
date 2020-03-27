@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4883709874833516}
   - component: {fileID: 33346735206424094}
   - component: {fileID: 23094734998617152}
+  - component: {fileID: 64697678308653378}
   m_Layer: 0
   m_Name: SM_Prop_Atm_01
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1776388541684078}
   m_Mesh: {fileID: 4300000, guid: bb052296404479844a0825a62fd033a4, type: 3}
+--- !u!64 &64697678308653378
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1776388541684078}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43531370395768578, guid: d357474166499ee43aef2a08e2002841, type: 2}

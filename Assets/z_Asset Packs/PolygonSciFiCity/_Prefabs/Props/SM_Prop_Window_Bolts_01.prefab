@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4962699018491280}
   - component: {fileID: 33681595643911410}
   - component: {fileID: 23761522738124890}
+  - component: {fileID: 64523062459489626}
   m_Layer: 0
   m_Name: SM_Prop_Window_Bolts_01
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1293738948552670}
   m_Mesh: {fileID: 4300000, guid: a7a28cfeda2e82a46b0045331bd0d9da, type: 3}
+--- !u!64 &64523062459489626
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1293738948552670}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43363338380124906, guid: 1a59419e84a0d6e4681396a93bb694a4, type: 2}

@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4456398018706560}
   - component: {fileID: 33565012142062318}
   - component: {fileID: 23532814439363482}
+  - component: {fileID: 64389466711970424}
   m_Layer: 0
   m_Name: SM_Bld_Large_Part_04
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1998124486261192}
   m_Mesh: {fileID: 4300000, guid: 4a9f21313a446374192a3b15cf30a7ba, type: 3}
+--- !u!64 &64389466711970424
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1998124486261192}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43963852455975228, guid: 1f460c03ef1fdff478329369f3f3f621, type: 2}

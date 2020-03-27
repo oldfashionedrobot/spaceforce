@@ -38,6 +38,7 @@ GameObject:
   - component: {fileID: 4498442425498850}
   - component: {fileID: 33479737518829122}
   - component: {fileID: 23441871905871144}
+  - component: {fileID: 64115647472074218}
   m_Layer: 0
   m_Name: SM_Prop_Security_Camera_01
   m_TagString: Untagged
@@ -150,3 +151,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1304298347931874}
   m_Mesh: {fileID: 4300002, guid: 4b7628188f488ea4594439a443be003f, type: 3}
+--- !u!64 &64115647472074218
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1358497394322602}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43221253231558180, guid: 146906564e5a2644c809cb769528892d, type: 2}

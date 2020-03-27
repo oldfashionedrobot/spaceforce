@@ -38,6 +38,9 @@ GameObject:
   - component: {fileID: 4909988165087752}
   - component: {fileID: 33780901586249058}
   - component: {fileID: 23595050195209112}
+  - component: {fileID: 64031314316234514}
+  - component: {fileID: 64063159581229302}
+  - component: {fileID: 64982360279614450}
   m_Layer: 0
   m_Name: SM_Bld_Security_WatchStation_01
   m_TagString: Untagged
@@ -150,3 +153,45 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1820751437825238}
   m_Mesh: {fileID: 4300002, guid: 325221c8776052f40b4aef7251a9bd7b, type: 3}
+--- !u!64 &64031314316234514
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1905158911971768}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43698609276745122, guid: 5d42f35811ee18d43ae21adb7e067c5a, type: 2}
+--- !u!64 &64063159581229302
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1905158911971768}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43359383745240914, guid: 5d42f35811ee18d43ae21adb7e067c5a, type: 2}
+--- !u!64 &64982360279614450
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1905158911971768}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43339318993988968, guid: 5d42f35811ee18d43ae21adb7e067c5a, type: 2}

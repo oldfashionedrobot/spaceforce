@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4197084730290452}
   - component: {fileID: 33974302809699314}
   - component: {fileID: 23299765367709754}
+  - component: {fileID: 64366870239471070}
   m_Layer: 0
   m_Name: SM_Prop_MarketTable_04
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1793800948455646}
   m_Mesh: {fileID: 4300000, guid: e8a2b7211f7ffc84b96c5b28008962c8, type: 3}
+--- !u!64 &64366870239471070
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1793800948455646}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43584090286374510, guid: eac38eeb661314d42ac9b42b1dc193f8, type: 2}

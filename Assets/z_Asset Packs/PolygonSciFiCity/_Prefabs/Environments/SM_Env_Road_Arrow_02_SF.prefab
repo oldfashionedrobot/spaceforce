@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4597377805647738}
   - component: {fileID: 33208906154262518}
   - component: {fileID: 23973601202226144}
+  - component: {fileID: 65764784176108806}
   m_Layer: 0
   m_Name: SM_Env_Road_Arrow_02_SF
   m_TagString: Untagged
@@ -80,3 +81,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1704295180094480}
   m_Mesh: {fileID: 4300000, guid: dba0f70cf6e53cb4089e2cf5b84d1b15, type: 3}
+--- !u!65 &65764784176108806
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1704295180094480}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 0.03913545, z: 5}
+  m_Center: {x: -2.5, y: -0.019567724, z: -2.5}

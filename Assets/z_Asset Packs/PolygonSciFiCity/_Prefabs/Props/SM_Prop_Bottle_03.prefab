@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4309815660970282}
   - component: {fileID: 33147673364065188}
   - component: {fileID: 23201223117288134}
+  - component: {fileID: 64019950536508284}
   m_Layer: 0
   m_Name: SM_Prop_Bottle_03
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1586275792966676}
   m_Mesh: {fileID: 4300000, guid: 406659c61b81c1c43be2aee358005451, type: 3}
+--- !u!64 &64019950536508284
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1586275792966676}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43217824181521422, guid: 44ef5f558898a57448da1a8a1cabeee6, type: 2}

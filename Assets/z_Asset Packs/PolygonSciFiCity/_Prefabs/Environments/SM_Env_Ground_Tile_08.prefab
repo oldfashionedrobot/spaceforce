@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4054441072378972}
   - component: {fileID: 33817923598156544}
   - component: {fileID: 23188833563646552}
+  - component: {fileID: 65400789183078334}
   m_Layer: 0
   m_Name: SM_Env_Ground_Tile_08
   m_TagString: Untagged
@@ -80,3 +81,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1445785975657966}
   m_Mesh: {fileID: 4300000, guid: 6f68a13f30d34ce4282ff1c5b48935ab, type: 3}
+--- !u!65 &65400789183078334
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1445785975657966}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.998749, y: 0.0000000037243597, z: 4.9987545}
+  m_Center: {x: -2.4993744, y: 0.0000000018621787, z: -2.4993715}

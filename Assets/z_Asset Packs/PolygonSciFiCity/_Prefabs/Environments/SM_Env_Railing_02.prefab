@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4240577228766462}
   - component: {fileID: 33168585931934636}
   - component: {fileID: 23437279666885630}
+  - component: {fileID: 65076337919622882}
   m_Layer: 0
   m_Name: SM_Env_Railing_02
   m_TagString: Untagged
@@ -80,3 +81,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1936039477935502}
   m_Mesh: {fileID: 4300000, guid: 11f9849c7e7b0944781c65de30eb832a, type: 3}
+--- !u!65 &65076337919622882
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1936039477935502}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 1.1671402, z: 0.29871368}
+  m_Center: {x: -2.5, y: 0.4638962, z: -0.0000038146973}

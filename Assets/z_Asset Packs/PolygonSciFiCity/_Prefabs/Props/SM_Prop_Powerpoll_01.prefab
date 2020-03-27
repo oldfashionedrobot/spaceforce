@@ -21,6 +21,8 @@ GameObject:
   - component: {fileID: 4269893311329252}
   - component: {fileID: 33104833700731770}
   - component: {fileID: 23379543833787696}
+  - component: {fileID: 64921242953205336}
+  - component: {fileID: 64695418855537948}
   m_Layer: 0
   m_Name: SM_Prop_Powerpoll_01
   m_TagString: Untagged
@@ -80,3 +82,31 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1663477287057296}
   m_Mesh: {fileID: 4300000, guid: dc5e0a8818619694a81e06e0b2e91995, type: 3}
+--- !u!64 &64695418855537948
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1663477287057296}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43948464220805828, guid: 664e78e5fb1ae5e4ebaa04e95a0c2dd9, type: 2}
+--- !u!64 &64921242953205336
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1663477287057296}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43173387528304710, guid: 664e78e5fb1ae5e4ebaa04e95a0c2dd9, type: 2}

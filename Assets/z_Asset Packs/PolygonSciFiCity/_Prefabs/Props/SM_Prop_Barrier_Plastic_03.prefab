@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33835682522741710}
   - component: {fileID: 23461532702845986}
   - component: {fileID: 95207129944228962}
+  - component: {fileID: 64567542708281742}
   m_Layer: 0
   m_Name: SM_Prop_Barrier_Plastic_03
   m_TagString: Untagged
@@ -81,6 +82,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1301849538240220}
   m_Mesh: {fileID: 4300000, guid: cc2387824c4a8f241b64938541803aa4, type: 3}
+--- !u!64 &64567542708281742
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1301849538240220}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43354312012213070, guid: ae26f35193544784bbe2aff4e364d82e, type: 2}
 --- !u!95 &95207129944228962
 Animator:
   serializedVersion: 3

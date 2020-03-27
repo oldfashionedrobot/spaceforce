@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4598202214404372}
   - component: {fileID: 33770920787881898}
   - component: {fileID: 23155369321832648}
+  - component: {fileID: 64002087488945268}
   m_Layer: 0
   m_Name: SM_Prop_DeadZub_01
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1631867685276284}
   m_Mesh: {fileID: 4300000, guid: 1fbb71ee14cf7b944ba5480521b16544, type: 3}
+--- !u!64 &64002087488945268
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1631867685276284}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43757361959860514, guid: 8620e71663361974590cccbc8c87a857, type: 2}

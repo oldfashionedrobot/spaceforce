@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4095704560758542}
   - component: {fileID: 33462756831778088}
   - component: {fileID: 23185618816833682}
+  - component: {fileID: 64939816712074406}
   m_Layer: 0
   m_Name: SM_Prop_Window_03
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1679583239124126}
   m_Mesh: {fileID: 4300000, guid: e46f2432ba9b2d748bbdc5a9f6d6b758, type: 3}
+--- !u!64 &64939816712074406
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1679583239124126}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43326404694936638, guid: cad360fa1abc2bd4cb4ffb2cee749c31, type: 2}

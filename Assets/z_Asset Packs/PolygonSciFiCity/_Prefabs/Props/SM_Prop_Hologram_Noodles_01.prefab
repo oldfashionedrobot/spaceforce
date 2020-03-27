@@ -39,6 +39,7 @@ GameObject:
   - component: {fileID: 33128556677131378}
   - component: {fileID: 23603223233412358}
   - component: {fileID: 95925673704988766}
+  - component: {fileID: 64070041038788286}
   m_Layer: 0
   m_Name: SM_Prop_Hologram_Noodles_01
   m_TagString: Untagged
@@ -151,6 +152,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1063838620185624}
   m_Mesh: {fileID: 4300002, guid: 3920d36e40305db4799466b4621523b0, type: 3}
+--- !u!64 &64070041038788286
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1285125316066528}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43862199578776396, guid: a84f1ed609739fe4c849e8ab4b3f4c6b, type: 2}
 --- !u!95 &95925673704988766
 Animator:
   serializedVersion: 3

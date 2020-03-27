@@ -38,6 +38,7 @@ GameObject:
   - component: {fileID: 4292452287400118}
   - component: {fileID: 33711365436952476}
   - component: {fileID: 23176594414031214}
+  - component: {fileID: 64388646162120914}
   m_Layer: 0
   m_Name: SM_Prop_Crate_Military_03
   m_TagString: Untagged
@@ -150,3 +151,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1921367956255658}
   m_Mesh: {fileID: 4300000, guid: 72b32028056c61246ba03e29f3108c2f, type: 3}
+--- !u!64 &64388646162120914
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1921367956255658}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43086783146313884, guid: 8c8e58095c734004daf8644599bed65b, type: 2}

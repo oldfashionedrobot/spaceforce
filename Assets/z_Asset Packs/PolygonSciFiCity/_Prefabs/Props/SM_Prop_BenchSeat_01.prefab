@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4441423105542974}
   - component: {fileID: 33623018470558500}
   - component: {fileID: 23624751982310634}
+  - component: {fileID: 64745838452578478}
   m_Layer: 0
   m_Name: SM_Prop_BenchSeat_01
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1803395385396878}
   m_Mesh: {fileID: 4300000, guid: 634cd170315f8b4489c8d664096c90ed, type: 3}
+--- !u!64 &64745838452578478
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1803395385396878}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43297753659872088, guid: c4e35ec947a7a3041aeec3d954d18fa0, type: 2}

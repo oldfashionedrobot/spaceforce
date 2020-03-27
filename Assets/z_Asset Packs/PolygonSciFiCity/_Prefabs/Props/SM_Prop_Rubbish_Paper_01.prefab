@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33434848049880880}
   - component: {fileID: 23124768473301696}
   - component: {fileID: 95001218751705844}
+  - component: {fileID: 64118967208967124}
   m_Layer: 0
   m_Name: SM_Prop_Rubbish_Paper_01
   m_TagString: Untagged
@@ -81,6 +82,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1470531676708312}
   m_Mesh: {fileID: 4300000, guid: 64e431dea4d6e0842a15d4ed11413581, type: 3}
+--- !u!64 &64118967208967124
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1470531676708312}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43007694830910132, guid: 8342ceaf149a12641b2e5b5eccc65eb8, type: 2}
 --- !u!95 &95001218751705844
 Animator:
   serializedVersion: 3

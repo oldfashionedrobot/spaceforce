@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4598785555926140}
   - component: {fileID: 33989011747979242}
   - component: {fileID: 23262345826462544}
+  - component: {fileID: 64524602338263892}
   m_Layer: 0
   m_Name: SM_Prop_Drone_01
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1008111210213596}
   m_Mesh: {fileID: 4300000, guid: 8de4e786aae787f42b15d9b9422143a7, type: 3}
+--- !u!64 &64524602338263892
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1008111210213596}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43182722108183224, guid: 562017d8b9df34a4b8f56643903bf82b, type: 2}

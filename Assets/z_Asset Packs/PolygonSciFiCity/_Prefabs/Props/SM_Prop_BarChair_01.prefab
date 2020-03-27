@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4069071470976808}
   - component: {fileID: 33369919539849520}
   - component: {fileID: 23383856943329476}
+  - component: {fileID: 64377495667905224}
   m_Layer: 0
   m_Name: SM_Prop_BarChair_01
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1082716667173560}
   m_Mesh: {fileID: 4300000, guid: 900488359e103dc428602398955bdbe8, type: 3}
+--- !u!64 &64377495667905224
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1082716667173560}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43155873769523892, guid: 41c459e334ae0f747a5964d0a32ec5e8, type: 2}

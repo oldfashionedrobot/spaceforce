@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33144675512324984}
   - component: {fileID: 23440824281446208}
   - component: {fileID: 95933155997946622}
+  - component: {fileID: 64115123646796890}
   m_Layer: 0
   m_Name: SM_Prop_Hologram_Pizza_01
   m_TagString: Untagged
@@ -151,6 +152,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1574538809171256}
   m_Mesh: {fileID: 4300000, guid: d22c2ca00d56e2b448ef468a11d4c426, type: 3}
+--- !u!64 &64115123646796890
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1574538809171256}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43234189397369796, guid: adf36b7c5d7e066499e2e233902f21d4, type: 2}
 --- !u!95 &95933155997946622
 Animator:
   serializedVersion: 3

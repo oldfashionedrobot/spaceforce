@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4004387348500922}
   - component: {fileID: 33239976127815178}
   - component: {fileID: 23110740234075498}
+  - component: {fileID: 64264383428556078}
   m_Layer: 0
   m_Name: SM_Prop_Sidewalk_Barrier_01
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1731850786259564}
   m_Mesh: {fileID: 4300000, guid: 35a86d11397a66440a17a3f9f51719af, type: 3}
+--- !u!64 &64264383428556078
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1731850786259564}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43552136573714844, guid: c7e078a4f58fb6d45b5867219955095e, type: 2}

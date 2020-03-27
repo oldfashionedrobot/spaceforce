@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4313495381632674}
   - component: {fileID: 33070643284472108}
   - component: {fileID: 23649133292485754}
+  - component: {fileID: 64999918069892944}
   m_Layer: 0
   m_Name: SM_Prop_Door_Chopshop_01
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1504589903986668}
   m_Mesh: {fileID: 4300000, guid: 59b24a6013afa7148910831b3f1821e2, type: 3}
+--- !u!64 &64999918069892944
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1504589903986668}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43427448524330280, guid: a86049e5c05745649b03676c45da3875, type: 2}

@@ -89,6 +89,7 @@ GameObject:
   - component: {fileID: 4260716708102600}
   - component: {fileID: 33102125318523546}
   - component: {fileID: 23791761236096702}
+  - component: {fileID: 64088772495479880}
   m_Layer: 0
   m_Name: SM_Veh_Classic_01_Hover
   m_TagString: Untagged
@@ -780,3 +781,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1681709566744864}
   m_Mesh: {fileID: 4300010, guid: 3dae08180763e844e82d255248de28a4, type: 3}
+--- !u!64 &64088772495479880
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1362285035416148}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43328260855302986, guid: a03ee115b1fcfce46bf0db86ee91c5b4, type: 2}

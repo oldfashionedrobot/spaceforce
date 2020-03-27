@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4748616525558288}
   - component: {fileID: 33573322789119926}
   - component: {fileID: 23565239101754876}
+  - component: {fileID: 64358666033512526}
   m_Layer: 0
   m_Name: SM_Veh_Sweepo_01
   m_TagString: Untagged
@@ -640,3 +641,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1273347669673142}
   m_Mesh: {fileID: 4300008, guid: 300d9f3f63482524ab999af07dc008ba, type: 3}
+--- !u!64 &64358666033512526
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1141628610405278}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43235590047684864, guid: 96319f6fa2b1ba24daedbf2bfd075e31, type: 2}

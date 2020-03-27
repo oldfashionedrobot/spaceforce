@@ -21,6 +21,8 @@ GameObject:
   - component: {fileID: 4532601739804444}
   - component: {fileID: 33924146874672244}
   - component: {fileID: 23754637625146526}
+  - component: {fileID: 64287245323963082}
+  - component: {fileID: 64315591380275394}
   m_Layer: 0
   m_Name: SM_Bld_City_Wall_Tower_01
   m_TagString: Untagged
@@ -80,3 +82,31 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1236945308426656}
   m_Mesh: {fileID: 4300000, guid: de04fe5f5ea058c4196ccbcbac489ac3, type: 3}
+--- !u!64 &64287245323963082
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1236945308426656}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43011873168971014, guid: 0acf3a2dff16b23459cbbc51ac75dcd7, type: 2}
+--- !u!64 &64315591380275394
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1236945308426656}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43123832592935670, guid: 0acf3a2dff16b23459cbbc51ac75dcd7, type: 2}

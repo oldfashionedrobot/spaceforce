@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4291349673683922}
   - component: {fileID: 33434138143894640}
   - component: {fileID: 23795737731442920}
+  - component: {fileID: 65550334958026764}
   m_Layer: 0
   m_Name: SM_Sign_Billboard_Border_Tall_02
   m_TagString: Untagged
@@ -80,3 +81,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1576767279489968}
   m_Mesh: {fileID: 4300000, guid: 6a4db5fe83cbb624890468acbf7c0295, type: 3}
+--- !u!65 &65550334958026764
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1576767279489968}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.9599576, y: 2.2143486, z: 0.16407132}
+  m_Center: {x: -0.000000074505806, y: -0.00000011920929, z: 0}

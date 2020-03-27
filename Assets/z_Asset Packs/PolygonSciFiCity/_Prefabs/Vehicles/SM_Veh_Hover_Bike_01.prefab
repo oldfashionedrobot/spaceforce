@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4443711394195014}
   - component: {fileID: 33540119479060190}
   - component: {fileID: 23393790556737476}
+  - component: {fileID: 64271458179626322}
   m_Layer: 0
   m_Name: SM_Veh_Hover_Bike_01
   m_TagString: Untagged
@@ -220,3 +221,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1711606201547466}
   m_Mesh: {fileID: 4300000, guid: fdc2e8f314499344a9b43b03c94db6b2, type: 3}
+--- !u!64 &64271458179626322
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1711606201547466}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43304113102536094, guid: 06f4ab19357507340aeab170bb516756, type: 2}

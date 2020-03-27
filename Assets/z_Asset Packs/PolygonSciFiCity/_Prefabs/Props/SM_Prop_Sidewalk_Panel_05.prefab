@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4043476163668646}
   - component: {fileID: 33741110739751652}
   - component: {fileID: 23380602125734370}
+  - component: {fileID: 64706294728877086}
   m_Layer: 0
   m_Name: SM_Prop_Sidewalk_Panel_05
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1554357078877790}
   m_Mesh: {fileID: 4300000, guid: 50ab2d4d649b5014fb005dc269ef20f8, type: 3}
+--- !u!64 &64706294728877086
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1554357078877790}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43027342708334470, guid: ca2710c62d39a564c81baca40f24e381, type: 2}

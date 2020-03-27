@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4453929042498056}
   - component: {fileID: 33309566894388886}
   - component: {fileID: 23556840461417700}
+  - component: {fileID: 64440925734759364}
   m_Layer: 0
   m_Name: SM_Prop_VRHeadset_01
   m_TagString: Untagged
@@ -81,3 +82,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1087358985219506}
   m_Mesh: {fileID: 4300000, guid: e391930a85a538b468bf940e141cef41, type: 3}
+--- !u!64 &64440925734759364
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1087358985219506}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43545068542605578, guid: c081ea90c5211ec44898ce11e81f1b31, type: 2}

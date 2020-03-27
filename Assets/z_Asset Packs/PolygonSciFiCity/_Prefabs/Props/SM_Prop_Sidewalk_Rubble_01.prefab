@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4357999417070328}
   - component: {fileID: 33033712615562994}
   - component: {fileID: 23076830451525822}
+  - component: {fileID: 64687027239275336}
   m_Layer: 0
   m_Name: SM_Prop_Sidewalk_Rubble_01
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1366907923350860}
   m_Mesh: {fileID: 4300000, guid: eed8ca01e2504ff4b821c9720f1d0894, type: 3}
+--- !u!64 &64687027239275336
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1366907923350860}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43818862120459488, guid: 0655ebc7bad8e854db0e53edf767eed5, type: 2}

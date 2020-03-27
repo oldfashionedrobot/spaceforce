@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4150613104633244}
   - component: {fileID: 33009374225301234}
   - component: {fileID: 23537577196497670}
+  - component: {fileID: 64072638186526484}
   m_Layer: 0
   m_Name: SM_Prop_Plant_Vase_02
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1051544926179456}
   m_Mesh: {fileID: 4300000, guid: f97666928570ce548b4fccfaeac6728d, type: 3}
+--- !u!64 &64072638186526484
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1051544926179456}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43535446478663934, guid: 79a2f24646452b3479a86c1c4f90af18, type: 2}

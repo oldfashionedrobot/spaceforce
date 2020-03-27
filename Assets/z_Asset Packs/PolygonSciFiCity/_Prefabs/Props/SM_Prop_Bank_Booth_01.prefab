@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4423196179719242}
   - component: {fileID: 33785241745202082}
   - component: {fileID: 23003395336459502}
+  - component: {fileID: 64276025326993234}
   m_Layer: 0
   m_Name: SM_Prop_Bank_Booth_01
   m_TagString: Untagged
@@ -150,3 +151,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1581644234625476}
   m_Mesh: {fileID: 4300000, guid: 7195cf546294a564b99fb2fc20f97e60, type: 3}
+--- !u!64 &64276025326993234
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1581644234625476}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43377623836239094, guid: 6c583bc1c93f8734d80a716ff304017d, type: 2}

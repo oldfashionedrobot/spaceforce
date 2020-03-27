@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4285722502707304}
   - component: {fileID: 33407232848946300}
   - component: {fileID: 23982137162249314}
+  - component: {fileID: 64195614964089586}
   m_Layer: 0
   m_Name: SM_Prop_Carpet_Mat_01
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1930367494340592}
   m_Mesh: {fileID: 4300000, guid: a68298cded87060499f3408b5a40c5ec, type: 3}
+--- !u!64 &64195614964089586
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1930367494340592}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43156572828056348, guid: 186826508c6a9ba4e848e1ef42bac70a, type: 2}

@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4654152284347376}
   - component: {fileID: 33608556367292236}
   - component: {fileID: 23891053813839084}
+  - component: {fileID: 64077431275761140}
   m_Layer: 0
   m_Name: SM_Veh_Armored_Truck_01
   m_TagString: Untagged
@@ -640,3 +641,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1788124951219460}
   m_Mesh: {fileID: 4300002, guid: b261b046fd1e0a544acda40a7304add5, type: 3}
+--- !u!64 &64077431275761140
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1254837790230190}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43561886079945936, guid: 27b4effadc6792f4aa49cea7c00d9f63, type: 2}

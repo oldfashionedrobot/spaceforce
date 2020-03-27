@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4732628811592952}
   - component: {fileID: 33982023819707206}
   - component: {fileID: 23039910998603238}
+  - component: {fileID: 64047210733985576}
   m_Layer: 0
   m_Name: SM_Prop_Paper_Lantern_02
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1807595087488506}
   m_Mesh: {fileID: 4300000, guid: 1a07d374755dd7543a5182e21d961a62, type: 3}
+--- !u!64 &64047210733985576
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1807595087488506}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43163935968263540, guid: 77b867dcfed5f944d8f7ed2f64821508, type: 2}

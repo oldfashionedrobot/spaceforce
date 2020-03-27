@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4834984181873052}
   - component: {fileID: 33758440674571364}
   - component: {fileID: 23479017934758092}
+  - component: {fileID: 64512863155081760}
   m_Layer: 0
   m_Name: SM_Prop_Cable_Crossing_Rail_01
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1286428216148426}
   m_Mesh: {fileID: 4300000, guid: 5dcfd34461824ae48a0cc780189a2866, type: 3}
+--- !u!64 &64512863155081760
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1286428216148426}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43979881397502514, guid: ea9d8aa1d3e138c4e8e38f99730b366c, type: 2}

@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4329235364827882}
   - component: {fileID: 33820832716550838}
   - component: {fileID: 23468492897425760}
+  - component: {fileID: 64371053742774208}
   m_Layer: 0
   m_Name: SM_Veh_Future_Taxi_01
   m_TagString: Untagged
@@ -220,3 +221,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1169192800073340}
   m_Mesh: {fileID: 4300000, guid: 6ed00c3a7b429d142b83ce90c0807144, type: 3}
+--- !u!64 &64371053742774208
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1169192800073340}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43738154313178510, guid: e5f5546986da1b04894f398a7042ea94, type: 2}

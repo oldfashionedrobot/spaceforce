@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4211756829766954}
   - component: {fileID: 33317259223398158}
   - component: {fileID: 23206265844701600}
+  - component: {fileID: 64292414478824200}
   m_Layer: 0
   m_Name: SM_Prop_WoodenPath_01
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1133998300418894}
   m_Mesh: {fileID: 4300000, guid: fff443afb63c3d14ba1281784ff366cb, type: 3}
+--- !u!64 &64292414478824200
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1133998300418894}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43116180128051200, guid: d1133e9cc3994f047a4add7014844202, type: 2}

@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4010356921042402}
   - component: {fileID: 33098137271100482}
   - component: {fileID: 23858511685904726}
+  - component: {fileID: 64914555388752576}
   m_Layer: 0
   m_Name: SM_Env_Hedge_03
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1259538866159236}
   m_Mesh: {fileID: 4300000, guid: 599512ef8c47e9a41b596f94804f9dfa, type: 3}
+--- !u!64 &64914555388752576
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1259538866159236}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43804588880436132, guid: 5609a3258ea6c1740a08139c12101437, type: 2}

@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4045180807398802}
   - component: {fileID: 33159606409754532}
   - component: {fileID: 23446131305309948}
+  - component: {fileID: 64307433840248396}
   m_Layer: 0
   m_Name: SM_Prop_Office_Chair_01
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1497586556715612}
   m_Mesh: {fileID: 4300000, guid: 27d2c853dabc69c4f96bd7f97e26587c, type: 3}
+--- !u!64 &64307433840248396
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1497586556715612}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43614081729383726, guid: d72e4d258e4e988488aaceff5296a89a, type: 2}

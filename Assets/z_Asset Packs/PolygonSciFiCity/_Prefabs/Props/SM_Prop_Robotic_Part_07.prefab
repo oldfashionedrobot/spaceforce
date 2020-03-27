@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4821622442217080}
   - component: {fileID: 33289727528901482}
   - component: {fileID: 23166457627036102}
+  - component: {fileID: 64369803699023662}
   m_Layer: 0
   m_Name: SM_Prop_Robotic_Part_07
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1096391257213782}
   m_Mesh: {fileID: 4300000, guid: 35631994c9823c7469d35ee00f879ce0, type: 3}
+--- !u!64 &64369803699023662
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1096391257213782}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43877865008654508, guid: ece2a389c73dcb247b8c57bc5bed637a, type: 2}

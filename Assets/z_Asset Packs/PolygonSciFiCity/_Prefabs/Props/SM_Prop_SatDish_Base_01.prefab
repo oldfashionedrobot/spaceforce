@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4032381685711586}
   - component: {fileID: 33667653312511096}
   - component: {fileID: 23182894179135192}
+  - component: {fileID: 64422913321981266}
   m_Layer: 0
   m_Name: SM_Prop_SatDish_Base_01
   m_TagString: Untagged
@@ -150,3 +151,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1737621950763130}
   m_Mesh: {fileID: 4300000, guid: 7d2e1e642270ab941ba40410bec26068, type: 3}
+--- !u!64 &64422913321981266
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1737621950763130}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43859910252232950, guid: 85eaf3fe7f3895e47a0c78de38b00370, type: 2}

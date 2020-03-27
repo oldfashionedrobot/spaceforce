@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4829542248735224}
   - component: {fileID: 33717096691864818}
   - component: {fileID: 23404672448369744}
+  - component: {fileID: 64090163335943260}
   m_Layer: 0
   m_Name: SM_Prop_Paper_Banner_01
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1420739009756056}
   m_Mesh: {fileID: 4300000, guid: 80dc5cc55a0d83f4cae1d1c4a61b12ab, type: 3}
+--- !u!64 &64090163335943260
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1420739009756056}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43388270376090600, guid: 0bf41e0b2fa8a78429cacc16cf43af34, type: 2}

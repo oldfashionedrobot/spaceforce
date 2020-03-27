@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4884393029311846}
   - component: {fileID: 33532635951697958}
   - component: {fileID: 23685660499311852}
+  - component: {fileID: 64984360246270828}
   m_Layer: 0
   m_Name: SM_Prop_WallAttach_Electronics_05
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1876047450033306}
   m_Mesh: {fileID: 4300000, guid: 8751cb05161c8d549901627d9fd364de, type: 3}
+--- !u!64 &64984360246270828
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1876047450033306}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43392285387326196, guid: 394fb5e1504cafb4d9098d79210042f1, type: 2}

@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4639876288079920}
   - component: {fileID: 33996078494209846}
   - component: {fileID: 23068603835751974}
+  - component: {fileID: 64359544778208774}
   m_Layer: 0
   m_Name: SM_Veh_Hoverboard_01
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1044120275307978}
   m_Mesh: {fileID: 4300000, guid: 3940401e61f16984d9156bad0f4ed74c, type: 3}
+--- !u!64 &64359544778208774
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1044120275307978}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43981323715298204, guid: 41abd6dff21de4141b19ba237028dcdb, type: 2}

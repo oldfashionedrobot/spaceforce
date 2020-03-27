@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4611661833002512}
   - component: {fileID: 33245009468135570}
   - component: {fileID: 23839597710702110}
+  - component: {fileID: 64621453945354184}
   m_Layer: 0
   m_Name: SM_Bld_StripClub_Interior_03
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1806925571176856}
   m_Mesh: {fileID: 4300000, guid: f1d7b7c4f53755e4d9f5d1a0a090fd7b, type: 3}
+--- !u!64 &64621453945354184
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1806925571176856}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43844379678287284, guid: 9fefd8642e3e8a440a4776435d1c8206, type: 2}

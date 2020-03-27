@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4179708982773338}
   - component: {fileID: 33204396968416932}
   - component: {fileID: 23646456511946876}
+  - component: {fileID: 64072673132648018}
   m_Layer: 0
   m_Name: SM_Prop_Shield_Bubble_01
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1844941381580092}
   m_Mesh: {fileID: 4300000, guid: 806a384346534c54dba366161c34fde7, type: 3}
+--- !u!64 &64072673132648018
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1844941381580092}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43805360098861856, guid: d7c0b62438cc39d4c912033a666741d0, type: 2}

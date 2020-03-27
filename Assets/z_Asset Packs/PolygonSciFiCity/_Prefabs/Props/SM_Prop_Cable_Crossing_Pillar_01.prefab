@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4760601680154124}
   - component: {fileID: 33898910256456508}
   - component: {fileID: 23841604007113572}
+  - component: {fileID: 64697707161100038}
   m_Layer: 0
   m_Name: SM_Prop_Cable_Crossing_Pillar_01
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1547287164585002}
   m_Mesh: {fileID: 4300000, guid: dc8e1e7ca563cb148a6899612d665548, type: 3}
+--- !u!64 &64697707161100038
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1547287164585002}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43416124571284982, guid: 2de3b2dc78bc4cd47b696f16afd51cf5, type: 2}

@@ -38,6 +38,7 @@ GameObject:
   - component: {fileID: 4570521121574344}
   - component: {fileID: 33834047847680374}
   - component: {fileID: 23331047723380654}
+  - component: {fileID: 64911835385045652}
   m_Layer: 0
   m_Name: SM_Prop_StripClub_Curtain_01
   m_TagString: Untagged
@@ -150,3 +151,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1839951345128266}
   m_Mesh: {fileID: 4300000, guid: 033a616da626877448f1b0bf76d5af65, type: 3}
+--- !u!64 &64911835385045652
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1839951345128266}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43716688838451166, guid: e574901ffc52e3349ade1aefaf7ba1c9, type: 2}

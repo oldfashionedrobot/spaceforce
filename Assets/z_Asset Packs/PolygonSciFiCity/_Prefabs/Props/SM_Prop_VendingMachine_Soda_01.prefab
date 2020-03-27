@@ -38,6 +38,7 @@ GameObject:
   - component: {fileID: 4787066932721484}
   - component: {fileID: 33909379021696414}
   - component: {fileID: 23161724634771932}
+  - component: {fileID: 64312750738872268}
   m_Layer: 0
   m_Name: SM_Prop_VendingMachine_Soda_01
   m_TagString: Untagged
@@ -150,3 +151,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1790194864708156}
   m_Mesh: {fileID: 4300000, guid: 72fa3710f2c18c344bdb2ddb8b2793c1, type: 3}
+--- !u!64 &64312750738872268
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790194864708156}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43624505538196344, guid: 57b5149c7e50a634095d477af742b363, type: 2}

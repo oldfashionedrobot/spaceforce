@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4434495802960094}
   - component: {fileID: 33025300795499352}
   - component: {fileID: 23954869851774556}
+  - component: {fileID: 64505468332794482}
   m_Layer: 0
   m_Name: SM_Prop_StripClub_Pole_01
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1838969172423180}
   m_Mesh: {fileID: 4300000, guid: 53946caf308ae584f8755813627e69e2, type: 3}
+--- !u!64 &64505468332794482
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1838969172423180}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43185345445000238, guid: 9d7c182f321d027408b13d9eb509ad92, type: 2}

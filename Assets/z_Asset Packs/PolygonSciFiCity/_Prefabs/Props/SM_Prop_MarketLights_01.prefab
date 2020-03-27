@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4029088234908208}
   - component: {fileID: 33964741614558470}
   - component: {fileID: 23116644848316048}
+  - component: {fileID: 64796040123721056}
   m_Layer: 0
   m_Name: SM_Prop_MarketLights_01
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1403933024289690}
   m_Mesh: {fileID: 4300000, guid: 401245aeaa3f3ec4a98ce2f7c9045c18, type: 3}
+--- !u!64 &64796040123721056
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1403933024289690}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43683755800264562, guid: 4216e511d11e1004280b8955279102cd, type: 2}

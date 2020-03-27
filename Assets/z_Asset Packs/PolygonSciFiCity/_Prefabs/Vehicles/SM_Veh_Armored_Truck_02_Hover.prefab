@@ -38,6 +38,7 @@ GameObject:
   - component: {fileID: 4310970724085748}
   - component: {fileID: 33269394285941268}
   - component: {fileID: 23906864624285808}
+  - component: {fileID: 64877301986239580}
   m_Layer: 0
   m_Name: SM_Veh_Armored_Truck_02_Hover
   m_TagString: Untagged
@@ -640,3 +641,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1623621909004014}
   m_Mesh: {fileID: 4300008, guid: 06065635dd15a7d40a6142e7f772352a, type: 3}
+--- !u!64 &64877301986239580
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1114800656084530}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43612629091738986, guid: 91d57d05ab2136446b7824c3c72e2fda, type: 2}

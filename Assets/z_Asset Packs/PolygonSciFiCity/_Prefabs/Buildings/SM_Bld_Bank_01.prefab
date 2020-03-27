@@ -38,6 +38,7 @@ GameObject:
   - component: {fileID: 4167107128406550}
   - component: {fileID: 33769797643683062}
   - component: {fileID: 23466267470889660}
+  - component: {fileID: 64570512976007744}
   m_Layer: 0
   m_Name: SM_Bld_Bank_01
   m_TagString: Untagged
@@ -72,6 +73,7 @@ GameObject:
   - component: {fileID: 4854728157161302}
   - component: {fileID: 33516675763752380}
   - component: {fileID: 23045910274327718}
+  - component: {fileID: 65012021841241252}
   m_Layer: 0
   m_Name: SM_Bld_Bank_Door_Top_01
   m_TagString: Untagged
@@ -106,6 +108,7 @@ GameObject:
   - component: {fileID: 4903746094873878}
   - component: {fileID: 33571608055006908}
   - component: {fileID: 23533547921062132}
+  - component: {fileID: 65592928011705840}
   m_Layer: 0
   m_Name: SM_Bld_Bank_Door_Bottom_01
   m_TagString: Untagged
@@ -430,3 +433,41 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1215542030005526}
   m_Mesh: {fileID: 4300000, guid: b868092dcc1d8c54daf867db4c9e5065, type: 3}
+--- !u!64 &64570512976007744
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1215542030005526}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: dfa9ec944f01b4143b30de3b01007d2f, type: 3}
+--- !u!65 &65012021841241252
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1352954537195680}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.9708383, y: 1.4273263, z: 0.14620924}
+  m_Center: {x: 0.00000014901161, y: 0, z: 0}
+--- !u!65 &65592928011705840
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1608528661976426}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.9708383, y: 1.2916414, z: 0.14620924}
+  m_Center: {x: 0.00000014901161, y: 0, z: 0}

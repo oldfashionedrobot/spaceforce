@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4863337474644278}
   - component: {fileID: 33801360152393474}
   - component: {fileID: 23737142510539722}
+  - component: {fileID: 64782524692674154}
   m_Layer: 0
   m_Name: SM_Prop_AirConditioningUnit_02
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1124226066067632}
   m_Mesh: {fileID: 4300000, guid: c85334e4bd5d95544b25a676956a0acb, type: 3}
+--- !u!64 &64782524692674154
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1124226066067632}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43508969216521488, guid: afac301fa8ce70f4b8e0b15bee8925d8, type: 2}

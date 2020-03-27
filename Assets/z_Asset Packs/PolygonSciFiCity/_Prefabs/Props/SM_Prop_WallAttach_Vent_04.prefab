@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4210110148520298}
   - component: {fileID: 33848022881690690}
   - component: {fileID: 23605812173870694}
+  - component: {fileID: 64467905954159624}
   m_Layer: 0
   m_Name: SM_Prop_WallAttach_Vent_04
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1246667833658852}
   m_Mesh: {fileID: 4300000, guid: d61f065ef71c2c649a159f43f26e4973, type: 3}
+--- !u!64 &64467905954159624
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1246667833658852}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43807667594950350, guid: 9f9640457e71b874c87c98a8ff9ef0ed, type: 2}

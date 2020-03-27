@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4034012475276620}
   - component: {fileID: 33315946858091688}
   - component: {fileID: 23876920402640612}
+  - component: {fileID: 64886444656957972}
   m_Layer: 0
   m_Name: SM_Bld_Roof_Pagoda_01
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1667634150188234}
   m_Mesh: {fileID: 4300000, guid: 721278600aa4a854fb5be8d2686a9eea, type: 3}
+--- !u!64 &64886444656957972
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1667634150188234}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43746071472399426, guid: 7b496e93e8c5bbe4f9de51159c670dee, type: 2}
