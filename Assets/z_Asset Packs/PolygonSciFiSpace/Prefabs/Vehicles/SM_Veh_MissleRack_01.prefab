@@ -140,6 +140,7 @@ GameObject:
   - component: {fileID: 4465347950367830}
   - component: {fileID: 33275745744213970}
   - component: {fileID: 23509819836413790}
+  - component: {fileID: 64053544610632054}
   m_Layer: 0
   m_Name: SM_Veh_MissleRack_01
   m_TagString: Untagged
@@ -641,3 +642,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1983740632494422}
   m_Mesh: {fileID: 4300014, guid: 49f622c35fe7b08499f217f77eb343e3, type: 3}
+--- !u!64 &64053544610632054
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1827960899725640}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43498214043782214, guid: 343e557994db9d1479f027a073894319, type: 2}

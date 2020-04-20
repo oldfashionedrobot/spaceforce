@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4924967833028560}
   - component: {fileID: 33118151017543912}
   - component: {fileID: 23327539063392718}
+  - component: {fileID: 64140904973226368}
   m_Layer: 0
   m_Name: SM_Wep_Shield_Extended_01
   m_TagString: Untagged
@@ -150,3 +151,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1292774655158458}
   m_Mesh: {fileID: 4300000, guid: ab26ed77484c43e429b1e615627e6e8a, type: 3}
+--- !u!64 &64140904973226368
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1292774655158458}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43796321177732434, guid: 4b42a9327668f424c868c1c2c1a10b7d, type: 2}

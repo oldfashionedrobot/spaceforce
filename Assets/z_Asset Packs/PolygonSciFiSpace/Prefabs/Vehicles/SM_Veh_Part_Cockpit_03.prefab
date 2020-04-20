@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4913708542424718}
   - component: {fileID: 33885975459244724}
   - component: {fileID: 23063561733488848}
+  - component: {fileID: 64538483168365130}
   m_Layer: 0
   m_Name: SM_Veh_Part_Cockpit_03
   m_TagString: Untagged
@@ -55,7 +56,6 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: 4cee7a5983b187943adc589b9cb1f084, type: 2}
-  - {fileID: 2100000, guid: 4cee7a5983b187943adc589b9cb1f084, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -81,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1828618080065082}
   m_Mesh: {fileID: 4300000, guid: 4310aef2b26ea8a478a1097701aa3373, type: 3}
+--- !u!64 &64538483168365130
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1828618080065082}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43392454212894518, guid: 37454a0719f20b1448734c7e5a1db83b, type: 2}

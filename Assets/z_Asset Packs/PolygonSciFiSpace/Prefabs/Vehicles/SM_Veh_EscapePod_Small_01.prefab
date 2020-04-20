@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4612669701152964}
   - component: {fileID: 33588348036599952}
   - component: {fileID: 23224213711294034}
+  - component: {fileID: 64978654054083020}
   m_Layer: 0
   m_Name: SM_Veh_EscapePod_Small_01
   m_TagString: Untagged
@@ -55,7 +56,6 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: 4cee7a5983b187943adc589b9cb1f084, type: 2}
-  - {fileID: 2100000, guid: 4cee7a5983b187943adc589b9cb1f084, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -81,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1434866123280502}
   m_Mesh: {fileID: 4300000, guid: f1983b1baf9e412429f1c41e9a1c175e, type: 3}
+--- !u!64 &64978654054083020
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1434866123280502}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43019124491251064, guid: ed4c62b4ce04e1543bbb62583abe6dd4, type: 2}

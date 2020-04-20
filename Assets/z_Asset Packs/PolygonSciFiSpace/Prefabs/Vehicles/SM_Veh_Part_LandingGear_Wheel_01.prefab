@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4202523196347380}
   - component: {fileID: 33619485181883372}
   - component: {fileID: 23647537907157860}
+  - component: {fileID: 64145577734359896}
   m_Layer: 0
   m_Name: SM_Veh_Part_LandingGear_Wheel_01
   m_TagString: Untagged
@@ -150,3 +151,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1196967362661408}
   m_Mesh: {fileID: 4300000, guid: 4e866c05bff92524988b3a2ac0e1f7a7, type: 3}
+--- !u!64 &64145577734359896
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1196967362661408}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43455219146640474, guid: 7f2a92b957df28e4ca5b7f017e005e5e, type: 2}

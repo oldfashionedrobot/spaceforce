@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4921508814669472}
   - component: {fileID: 33319707084456574}
   - component: {fileID: 23437142091812154}
+  - component: {fileID: 64737606955095186}
   m_Layer: 0
   m_Name: SM_Ship_Bomber_03
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1251918485771260}
   m_Mesh: {fileID: 4300000, guid: e384cacf2489a9442868dbaa50f714c3, type: 3}
+--- !u!64 &64737606955095186
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1251918485771260}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: d5f294878c4f6c345b77b37d1c6d3cce, type: 3}

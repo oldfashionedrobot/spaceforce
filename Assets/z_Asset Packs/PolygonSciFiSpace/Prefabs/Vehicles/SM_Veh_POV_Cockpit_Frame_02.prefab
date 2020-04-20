@@ -38,6 +38,7 @@ GameObject:
   - component: {fileID: 4801207259714712}
   - component: {fileID: 33819393289433584}
   - component: {fileID: 23937245764303880}
+  - component: {fileID: 64737453058755288}
   m_Layer: 0
   m_Name: SM_Veh_POV_Cockpit_Frame_02
   m_TagString: Untagged
@@ -150,3 +151,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1870059839143920}
   m_Mesh: {fileID: 4300000, guid: 0880d24e725780f409826c4d309fa3c0, type: 3}
+--- !u!64 &64737453058755288
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1870059839143920}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43228658470419058, guid: fe2d238d10c257442a7d75122f875f3a, type: 2}

@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4815644880311426}
   - component: {fileID: 33155096124149482}
   - component: {fileID: 23987407596915866}
+  - component: {fileID: 64523496310479860}
   m_Layer: 0
   m_Name: SM_Env_Asteroid_Holes_04
   m_TagString: Untagged
@@ -79,4 +80,18 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1327755057121430}
+  m_Mesh: {fileID: 4300000, guid: b49983a0f7ad7074faad9e7f88640f9a, type: 3}
+--- !u!64 &64523496310479860
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1327755057121430}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: b49983a0f7ad7074faad9e7f88640f9a, type: 3}

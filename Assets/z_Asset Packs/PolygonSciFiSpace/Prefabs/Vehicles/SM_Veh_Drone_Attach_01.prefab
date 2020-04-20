@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4244429690876308}
   - component: {fileID: 33312984774948722}
   - component: {fileID: 23544755976305426}
+  - component: {fileID: 64979631015632002}
   m_Layer: 0
   m_Name: SM_Veh_Drone_Attach_01
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1165255073185956}
   m_Mesh: {fileID: 4300000, guid: a2b596f04de3c734699bded605c10a5f, type: 3}
+--- !u!64 &64979631015632002
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1165255073185956}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43239783779963154, guid: aa3addb7572f59049b8b3c722567fab9, type: 2}

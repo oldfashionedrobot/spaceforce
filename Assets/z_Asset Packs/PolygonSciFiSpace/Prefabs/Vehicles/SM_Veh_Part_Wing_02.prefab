@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4374490791571780}
   - component: {fileID: 33104348547328484}
   - component: {fileID: 23135886768576216}
+  - component: {fileID: 64751601994107576}
   m_Layer: 0
   m_Name: SM_Veh_Part_Wing_02
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1926781614066640}
   m_Mesh: {fileID: 4300000, guid: 94d880e11b26db740b0aa479bf4a07ea, type: 3}
+--- !u!64 &64751601994107576
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1926781614066640}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43091848946653990, guid: fab4f33e6d94c33479c91fd91b39a7d7, type: 2}

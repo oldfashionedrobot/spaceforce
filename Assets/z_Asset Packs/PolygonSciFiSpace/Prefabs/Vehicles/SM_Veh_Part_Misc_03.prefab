@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4930448529956810}
   - component: {fileID: 33738337216878508}
   - component: {fileID: 23302062542500990}
+  - component: {fileID: 64634970515304508}
   m_Layer: 0
   m_Name: SM_Veh_Part_Misc_03
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1758027998243264}
   m_Mesh: {fileID: 4300000, guid: 66c6a9d926d7b204da1c56e1769f7041, type: 3}
+--- !u!64 &64634970515304508
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1758027998243264}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43831585641948096, guid: 946037231ee239741a4a3a5a12a96849, type: 2}

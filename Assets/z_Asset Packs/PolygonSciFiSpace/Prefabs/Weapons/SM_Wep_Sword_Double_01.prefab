@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4209996085838552}
   - component: {fileID: 33205305223079110}
   - component: {fileID: 23805786764914250}
+  - component: {fileID: 64385048204343352}
   m_Layer: 0
   m_Name: SM_Wep_Sword_Double_01
   m_TagString: Untagged
@@ -150,3 +151,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1795286958138686}
   m_Mesh: {fileID: 4300002, guid: 5a60f355d04366240bd7b0c1cb8e22f3, type: 3}
+--- !u!64 &64385048204343352
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1619868426090406}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43345466416199238, guid: d08163a6f8c0ec34bb7eb8579c332bea, type: 2}

@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4224390039651876}
   - component: {fileID: 33375263571472708}
   - component: {fileID: 23541479256392472}
+  - component: {fileID: 64195392235475130}
   m_Layer: 0
   m_Name: SM_Veh_WarpGate_Outer_01
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1315359317690184}
   m_Mesh: {fileID: 4300000, guid: 12ab38a43d28b974ca4f578f147b63b5, type: 3}
+--- !u!64 &64195392235475130
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1315359317690184}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 73feb096f35ce7e46acf101a472e04e5, type: 3}

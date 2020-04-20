@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4549877619635688}
   - component: {fileID: 33896740153524366}
   - component: {fileID: 23115813281850436}
+  - component: {fileID: 64599312616943652}
   m_Layer: 0
   m_Name: SM_Ship_Fighter_Heavy_01
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1883019902606728}
   m_Mesh: {fileID: 4300000, guid: 562087eafc41f8b4b8b6e28118fec3a1, type: 3}
+--- !u!64 &64599312616943652
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1883019902606728}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 1fe8c2468e4147b4bb40d39333eeb7bc, type: 3}

@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4904150697385102}
   - component: {fileID: 33706180153980038}
   - component: {fileID: 23849842722241762}
+  - component: {fileID: 64629556343527006}
   m_Layer: 0
   m_Name: SM_Ship_Station_06
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1445680428104048}
   m_Mesh: {fileID: 4300000, guid: f3959e554359efa45a7d08e67b5539dd, type: 3}
+--- !u!64 &64629556343527006
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1445680428104048}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: bb0de7d6fd44c8d49bb1987c36733bba, type: 3}

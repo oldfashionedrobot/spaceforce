@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4307041445612860}
   - component: {fileID: 33165752095600098}
   - component: {fileID: 23098183307031532}
+  - component: {fileID: 64659181067292852}
   m_Layer: 0
   m_Name: SM_Prop_FoodPacket_03
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1054062778722078}
   m_Mesh: {fileID: 4300000, guid: 30c92b3651c46564abd07458ee8c2ad8, type: 3}
+--- !u!64 &64659181067292852
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1054062778722078}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 43455135127809700, guid: b3022655b87c88245ad4bc19a703c955, type: 2}

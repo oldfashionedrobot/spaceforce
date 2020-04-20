@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4264431252798110}
   - component: {fileID: 33159032892638496}
   - component: {fileID: 23121018927919642}
+  - component: {fileID: 64661206204801940}
   m_Layer: 0
   m_Name: SM_Ship_Stealth_04
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1150452549280056}
   m_Mesh: {fileID: 4300000, guid: 3209825cfa99a744c82ee09421ce2335, type: 3}
+--- !u!64 &64661206204801940
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1150452549280056}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 7b8f448bf2971e4489ef758a2999b766, type: 3}

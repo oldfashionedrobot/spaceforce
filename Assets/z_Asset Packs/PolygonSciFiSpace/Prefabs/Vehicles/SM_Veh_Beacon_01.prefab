@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4027670958804834}
   - component: {fileID: 33526293050693872}
   - component: {fileID: 23924887951754496}
+  - component: {fileID: 64332923359584214}
   m_Layer: 0
   m_Name: SM_Veh_Beacon_01
   m_TagString: Untagged
@@ -80,3 +81,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1973788630167254}
   m_Mesh: {fileID: 4300000, guid: 551ab40cc39f6134e90d9ce7509bab50, type: 3}
+--- !u!64 &64332923359584214
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1973788630167254}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 57ba309d111a36c43a39e9881d139d0b, type: 3}
